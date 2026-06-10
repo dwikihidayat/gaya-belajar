@@ -129,7 +129,7 @@ export default function ResultPage() {
 
     if (!testResults) {
         return (
-            <div className="max-w-7xl mx-auto px-4 py-12 pt-28 ">
+            <div className=" mx-auto px-4 py-12 pt-28 ">
                 <Card className="bg-white shadow-lg rounded-xl border border-gray-200">
                     <CardContent className="p-6 text-center">
                         <h1 className="text-2xl font-bold text-primary font-inter">Tidak Ada Hasil Tes</h1>
@@ -160,7 +160,7 @@ export default function ResultPage() {
     return (
         <TooltipProvider>
             <AnimatePresence>
-                <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit" transition={pageTransition} className="max-w-7xl mx-auto space-y-8 min-h-screen sm:px-6 lg:px-8 ">
+                <motion.div variants={pageVariants} initial="initial" animate="animate" exit="exit" transition={pageTransition} className="mx-auto sm:p-4 space-y-6 sm:space-y-8">
                     {/* Header Section */}
                     <Card className="bg-primary shadow-xl rounded-xl border-none">
                         <CardContent className="p-6 sm:p-8">
